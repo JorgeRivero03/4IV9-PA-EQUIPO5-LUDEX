@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(120deg, #2270af 0%, black );
+    padding: 20px 60px 20px 30px;
+    border-bottom: thin solid black;
+}
+
+.logo{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.logo{
+
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.logo img{
+
+    width: 300px;
+
+}
+
+.menu a{
+
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    color: blanchedalmond;
+    transition: all 200ms;
+
+}
+
+.menu a:hover{
+
+    color: blue;
+}
+
+
+.ludex{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.5)100%), url("../img/fondo.jpg");
+    background-position: center;
+    background-size: center;
+    text-align: center;
+}
+
+.ludex h2{
+
+    color: white;
+}
+
+
+.ludex img{
+
+    width: 300x;
+    height: 300px;
+    border-radius: 30%;
+
+
+}
